@@ -1,19 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
 body{
 	margin:0;
 	padding:0;
-	background-color:#ccc;
+	background-color:#FFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #wrapper{
 	margin: 20px 100px;
+	overflow: hidden;
 }
 
 
-/* LEFT MENU START */
+/* LEFT MENU START ######################################################################*/
 
 #leftMenu{
 	width: 15%;
+	float: left;
 }
 
 #leftMenu #item{
@@ -24,6 +29,8 @@ body{
 	padding: 5px;
 	font-size: 35px;
 	margin-bottom: 5px;
+	background-color: #DA6214;
+	color: white;
 }
 
 #leftMenu #title, #leftMenu #content li{
@@ -37,6 +44,8 @@ body{
 	margin-left: 20px;
 	padding: 5px;
 	font-size: 25px;
+	background-color: #008B02;
+	color:#fff;
 }
 
 #leftMenu li{
@@ -55,4 +64,14 @@ body{
 	text-decoration: none;
 	color: black;
 }
-/* LEFT MENU END */
+/* LEFT MENU END ######################################################################*/
+
+/*RIGHT MENU START######################################################################*/
+
+#rightMenu{
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+/*RIGHT MENU END ######################################################################*/

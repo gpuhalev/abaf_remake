@@ -10,7 +10,7 @@
 			<div id="leftMenu">
 				<?php require 'menus/leftMenu.html';?>
 			</div>
-			<div id="content">
+			<div id="rightMenu">
 				
 			</div>
 		</div>
